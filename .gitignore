@@ -1,0 +1,7 @@
+__pycache__/
+cams/
+crop_tests/
+logs/
+plot_crops.ipynb
+pretrained/*.pth
+scripts/
