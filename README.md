@@ -24,7 +24,7 @@ TSN-Based Visual Emotion Recognition Model
 
 **Dataset PATHs:** [EmoReact/dataset.py](EmoReact/dataset.py) line 228 (mp4 + OpenFace) and lines 237-241 (extracted frames using [vid2img](tools/vid2img_emoreact_mask.py))
 
-**Dataset CSVs:** [EmoReact/{train,val,test}.csv]([EmoReact/train.csv])
+**Dataset CSVs:** [EmoReact/{train,val,test}.csv](EmoReact/train.csv)
 
 ## How to run
 ```
