@@ -6,7 +6,7 @@ TSN-Based Visual Emotion Recognition Model
 </p>
 
 ## Abstract
-> The COVID-19 pandemic has forced people to extensively wear medical face masks, in order to prevent transmission. This face occlusion results in considerable emotion recognition performance drop by models that exploit facial expressions. Therefore, it urges us to incorporate the whole body in the input, as it needs to play a more major role in the task of recognition, despite its complementary nature. Emotional expressions consist of multiple stages spanning over a period of time, which indicates we should not only exploit spatial information from multiple sparsely sampled frames, but also model temporal structure. Although single RGB stream models can learn both face and body features, this may lead to irrelevant information confusion. By processing those features separately and fusing their preliminary prediction scores with a late fusion scheme, we are more effectively taking advantage of both modalities. The [TSN](https://github.com/yjxiong/temporal-segment-networks) architecture can also naturally support temporal modeling, by mingling information among neighboring snippet frames with the [TSM](https://github.com/mit-han-lab/temporal-shift-module) module. Experimental results suggest that spatial structure plays a more important role for each emotional expression, while temporal structure is complementary.
+> The COVID-19 pandemic has forced people to extensively wear medical face masks, in order to prevent transmission. This face occlusion results in considerable emotion recognition performance drop by models that exploit facial expressions. Therefore, it urges us to incorporate the whole body in the input, as it needs to play a more major role in the task of recognition, despite its complementary nature. Emotional expressions consist of multiple stages spanning over a period of time, which indicates we should not only exploit spatial information from multiple sparsely sampled frames, but also model temporal structure. Although single RGB stream models can learn both face and body features, this may lead to irrelevant information confusion. By processing those features separately and fusing their preliminary prediction scores with a late fusion scheme, we are more effectively taking advantage of both modalities. The [TSN](https://github.com/yjxiong/temporal-segment-networks) architecture can also naturally support temporal modeling, by mingling information among neighboring snippet frames with the [TSM](https://github.com/mit-han-lab/temporal-shift-module) module. Experimental results suggest that spatial structure plays a more important role for an emotional expression, while temporal structure is complementary.
 
 ## Prerequisites
 
@@ -22,7 +22,7 @@ TSN-Based Visual Emotion Recognition Model
 * sklearn 1.0.2
 * pytorch_grad_cam
 
-**Dataset PATHs:** [EmoReact/dataset.py](EmoReact/dataset.py) line 228 (mp4 + OpenFace) and lines 237-241 (extracted frames using [vid2img tool](tools/vid2img_emoreact_mask.py))
+**Dataset PATHs:** [EmoReact/dataset.py](EmoReact/dataset.py) line 228 (mp4 + OpenFace) and lines 237-241 (extracted frames using [vid2img](tools/vid2img_emoreact_mask.py))
 
 **Dataset CSVs:** [EmoReact/{train,val,test}.csv]([EmoReact/train.csv])
 
