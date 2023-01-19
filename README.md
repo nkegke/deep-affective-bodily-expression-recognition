@@ -1,6 +1,6 @@
 # Deep Affective Bodily Expression Recognition
 
-<img src="https://drive.google.com/uc?export=view&id=1OPR42S6ld9sNWo8-VXTU1TULHlIDd_Xh" alt="face" style="width: 55vw;"/>
+<img src="https://drive.google.com/uc?export=view&id=1OPR42S6ld9sNWo8-VXTU1TULHlIDd_Xh" alt="model" style="width: 55vw;"/>
 <p align="center">
 TSN-Based Visual Emotion Recognition Model
 </p>
