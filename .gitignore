@@ -5,3 +5,5 @@ logs/
 plot_crops.ipynb
 pretrained/*.pth
 scripts/
+pretrained/.DS_Store
+pretrained/.ipynb_checkpoints/adjust_pretrained-checkpoint.ipynb

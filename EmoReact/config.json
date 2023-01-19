@@ -19,7 +19,7 @@
         }
     },
     "trainer": {
-        "epochs": 60,
+        "epochs": 12,
         "save_dir": "logs/EmoReact",
 
         "save_period": 1,

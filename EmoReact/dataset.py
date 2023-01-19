@@ -50,8 +50,6 @@ class TSNDataSet(data.Dataset):
         self.random_shift = random_shift
         self.test_mode = test_mode
 
-        self.db_path = "/gpu-data/filby/EmoReact_V_1.0/Data"
-
         self.categorical_emotions = ["Curiosity", "Uncertainty", "Excitement", "Happiness", "Surprise", "Disgust", "Fear", "Frustration"]
         
         self.df = pd.read_csv(os.path.join("EmoReact/{}.csv".format(phase)))
@@ -227,7 +225,7 @@ class TSNDataSet(data.Dataset):
     def __getitem__(self, index):
         sample = self.df.iloc[index]
 
-        fname = os.path.join(self.db_path,"AllVideos",self.df.iloc[index]["video"])
+        fname = os.path.join("/gpu-data/filby/EmoReact_V_1.0/Data","AllVideos",self.df.iloc[index]["video"])
         # print(fname)
 
         capture = cv2.VideoCapture(fname)
