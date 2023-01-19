@@ -51,7 +51,7 @@ Face |  Full Body | Fusion (Face + Body)
 | TSM   | Fusion             |  0.768   |
 | TSN   | Unmasked Face      |  0.769   |
 
-## Visual Explanation (using [https://github.com/jacobgil/pytorch-grad-cam](Grad-CAM))
+## Visual Explanation (using [Grad-CAM](https://github.com/jacobgil/pytorch-grad-cam))
 
 Excitement | Frustration
 :---------:|:----------:
