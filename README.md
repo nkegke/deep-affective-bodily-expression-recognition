@@ -21,6 +21,7 @@ TSN-Based Visual Emotion Recognition Model
 * pandas 1.4.2
 * sklearn 1.0.2
 * pytorch_grad_cam
+* gdown
 
 **Dataset PATHs:** [EmoReact/dataset.py](EmoReact/dataset.py) line 228 (mp4 + OpenFace) and lines 237-241 (extracted frames using [vid2img](tools/vid2img_emoreact_mask.py))
 
