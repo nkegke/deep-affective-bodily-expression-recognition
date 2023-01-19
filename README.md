@@ -1,7 +1,5 @@
 # Deep Affective Bodily Expression Recognition
 
-Diploma Thesis (MEng) at School of Electrical & Computer Engineering - National Technical University of Athens
-
 <img src="https://drive.google.com/uc?export=view&id=1OPR42S6ld9sNWo8-VXTU1TULHlIDd_Xh" alt="face" style="width: 55vw;"/>
 <p align="center">
 TSN-Based Visual Emotion Recognition Model
