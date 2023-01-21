@@ -44,13 +44,41 @@ Face |  Full Body | Fusion (Face + Body)
 
 ## Results
 
-| Model | Input - 3 Segments |  ROC AUC |
-|-------|--------------------|----------|
-| TSN   | Face               |  0.733   |
-| TSN   | Body               |  0.736   |
-| TSN   | Full Body          |  0.758   |
-| TSM   | Fusion             |  0.768   |
-| TSN   | Unmasked Face      |  0.769   |
+<table>
+    <thead>
+        <tr>
+            <th>Model</th>
+            <th>Input - 3 Segments</th>
+            <th>ROC AUC</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=3>TSN</td>
+            <td>Face</td>
+            <td>0.733</td>
+        </tr>
+        <tr>
+            <td>Body</td>
+            <td>0.736</td>
+        </tr>
+        <tr>
+            <td>Full Body</td>
+            <td>0.758</td>
+        </tr>
+        <tr>
+            <td>TSM</td>
+            <td>Fusion</td>
+            <td>0.768</td>
+        </tr>
+        <tr>
+            <td>TSN</td>
+            <td>Unmasked Face</td>
+            <td>0.769</td>
+        </tr>
+    </tbody>
+</table>
+
 
 ## Visual Explanation (using [Grad-CAM](https://github.com/jacobgil/pytorch-grad-cam))
 
