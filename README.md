@@ -1,6 +1,6 @@
 # Deep Affective Bodily Expression Recognition
 
-<img src="https://drive.google.com/uc?export=view&id=1OPR42S6ld9sNWo8-VXTU1TULHlIDd_Xh" alt="model" style="width: 55vw;"/>
+<img src="https://github.com/nkegke/files/blob/main/thesis/baseline.png" alt="face" style="width: 55vw;"/>
 <p align="center">
 TSN-Based Visual Emotion Recognition Model
 </p>
@@ -39,7 +39,7 @@ python train_EmoReact.py [--input {face,body,fullbody,fusion}]
 
 Face |  Full Body | Fusion (Face + Body)
 :-------:|:----------:|:----------:
-<img src="https://drive.google.com/uc?export=view&id=10ZM8uhDyLX3Y3hzwIGacRc7j1UnYc9xi" alt="face" style="width:151px; height:200px"/>  |   <img src="https://drive.google.com/uc?export=view&id=1gahsNQ_ouKVFXia0Ty0RxwUvqg-ynCpu" alt="fbody" style="width:305px; height:200px"/>  |  <img src="https://drive.google.com/uc?export=view&id=1Zog4VBUH7KCZSFbKc-Qa-kAYVLjyXHtI" alt="fus" style="width:370px; height:200px"/>
+<img src="https://github.com/nkegke/files/blob/main/thesis/face_mask.png" alt="face" style="width:151px; height:200px"/> | <img src="https://github.com/nkegke/files/blob/main/thesis/body_mask.png" alt="face" style="width:305px; height:200px"/> | <img src="https://github.com/nkegke/files/blob/main/thesis/fusion.png" alt="face" style="width:370px; height:200px"/>
 
 
 ## Results
@@ -84,8 +84,8 @@ Face |  Full Body | Fusion (Face + Body)
 
 Excitement | Frustration
 :---------:|:----------:
-<img src="https://drive.google.com/uc?export=view&id=1fgsMQa6DtB4me-Ayh184ILL4uXCyie65" alt="ef1" style="width: 8vw;"/> <img src="https://drive.google.com/uc?export=view&id=1hkUltmuvqTBx-MTbGY-JxyQoxATTmE1J" alt="ef2" style="width: 8vw;"/> <img src="https://drive.google.com/uc?export=view&id=1VrYHDFYpjna_4IQ746VLThxgGuKiyFdo" alt="ef3" style="width: 8vw;"/> | <img src="https://drive.google.com/uc?export=view&id=1Kfrxi6Cd9baqL4mBKa0KowFg8Uo0VmwS" alt="eb1" style="width: 8vw;"/> <img src="https://drive.google.com/uc?export=view&id=1xujYN3G0ERrcO1Y4HRb-pbeRI2xXj7fw" alt="eb2" style="width: 8vw;"/> <img src="https://drive.google.com/uc?export=view&id=1ht04ONy6IZb0rXn04PjoTxlri0gDOwJV" alt="eb3" style="width: 8vw;"/>
-<img src="https://drive.google.com/uc?export=view&id=1AEL03UAVVczkE5xrZSCEYTw75TFkw-LM" alt="ff1" style="width: 8vw;"/> <img src="https://drive.google.com/uc?export=view&id=1ZiFKPm6gfGhS1kVG-vKVxSF5LCFXf4su" alt="ff2" style="width: 8vw;"/> <img src="https://drive.google.com/uc?export=view&id=1-T08W3b2WNEIaxzWSZCJQ_uoNNAYRIbk" alt="ff3" style="width: 8vw;"/> | <img src="https://drive.google.com/uc?export=view&id=1OrsNnN8FbYgCo-lsrK9gskaJjI8sRq1Q" alt="fb1" style="width: 8vw;"/> <img src="https://drive.google.com/uc?export=view&id=1Xx8WqsnrkrY3C7iq9mSDYBKI4xvv0_C0" alt="fb2" style="width: 8vw;"/> <img src="https://drive.google.com/uc?export=view&id=1tXDNNhhG6R0YAzkPa5itHyhNips995Xc" alt="fb3" style="width: 8vw;"/>
+<img src="https://github.com/nkegke/files/blob/main/thesis/ef1.png" alt="face" style="width: 8vw;"/> <img src="https://github.com/nkegke/files/blob/main/thesis/ef2.png" alt="face" style="width: 8vw;"/> <img src="https://github.com/nkegke/files/blob/main/thesis/ef3.png" alt="face" style="width: 8vw;"/> | <img src="https://github.com/nkegke/files/blob/main/thesis/ff1.png" alt="face" style="width: 8vw;"/> <img src="https://github.com/nkegke/files/blob/main/thesis/ff2.png" alt="face" style="width: 8vw;"/> <img src="https://github.com/nkegke/files/blob/main/thesis/ff3.png" alt="face" style="width: 8vw;"/>
+<img src="https://github.com/nkegke/files/blob/main/thesis/eb1.png" alt="face" style="width: 8vw;"/> <img src="https://github.com/nkegke/files/blob/main/thesis/eb2.png" alt="face" style="width: 8vw;"/> <img src="https://github.com/nkegke/files/blob/main/thesis/eb3.png" alt="face" style="width: 8vw;"/> | <img src="https://github.com/nkegke/files/blob/main/thesis/fb1.png" alt="face" style="width: 8vw;"/> <img src="https://github.com/nkegke/files/blob/main/thesis/fb2.png" alt="face" style="width: 8vw;"/> <img src="https://github.com/nkegke/files/blob/main/thesis/fb3.png" alt="face" style="width: 8vw;"/>
 
 ## Acknowledgements
 
