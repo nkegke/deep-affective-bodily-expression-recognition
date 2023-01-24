@@ -10,7 +10,7 @@ TSN-Based Visual Emotion Recognition Model
 
 ## Prerequisites
 
-* Ubuntu 16.04 LTS
+* Linux
 * CUDA 11.2
 * numpy 1.21.5
 * matplotlib 3.5.1
