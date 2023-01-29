@@ -23,7 +23,11 @@ TSN-Based Visual Emotion Recognition Model
 * pytorch_grad_cam
 * gdown
 
-**Dataset PATHs:** [EmoReact/dataset.py](EmoReact/dataset.py) line 228 (mp4 + OpenFace) and lines 237-241 (extracted frames using [vid2img](tools/vid2img_emoreact_mask.py))
+**Dataset PATHs:** 
+* [EmoReact/dataset.py](EmoReact/dataset.py): line 228 (mp4), 113 (OpenFace), 118 (holistic)
+* [EmoReact/dataset.py](EmoReact/dataset.py): lines 237-241 (extracted frames using [vid2img](tools/vid2img_emoreact_mask.py))
+* [extract_hol.py](extract_hol.py), [prepare_hol_txt.py](prepare_hol_txt.py): holistic landmark extraction
+
 
 **Dataset CSVs:** [EmoReact/{train,val,test}.csv](EmoReact/train.csv)
 
@@ -40,44 +44,6 @@ python train_EmoReact.py [--input {face,body,fullbody,fusion}]
 Face |  Full Body | Fusion (Face + Body)
 :-------:|:----------:|:----------:
 <img src="https://github.com/nkegke/files/blob/main/thesis/face_mask.png" alt="face" style="width:151px; height:200px"/> | <img src="https://github.com/nkegke/files/blob/main/thesis/body_mask.png" alt="face" style="width:305px; height:200px"/> | <img src="https://github.com/nkegke/files/blob/main/thesis/fusion.png" alt="face" style="width:370px; height:200px"/>
-
-
-## Results
-
-<table>
-    <thead>
-        <tr>
-            <th>Model</th>
-            <th>Input - 3 Segments</th>
-            <th>ROC AUC</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td rowspan=3>TSN</td>
-            <td>Face</td>
-            <td>0.733</td>
-        </tr>
-        <tr>
-            <td>Body</td>
-            <td>0.736</td>
-        </tr>
-        <tr>
-            <td>Full Body</td>
-            <td>0.758</td>
-        </tr>
-        <tr>
-            <td>TSM</td>
-            <td>Fusion</td>
-            <td>0.768</td>
-        </tr>
-        <tr>
-            <td>TSN</td>
-            <td>Unmasked Face</td>
-            <td>0.769</td>
-        </tr>
-    </tbody>
-</table>
 
 
 ## Visual Explanation (using [Grad-CAM](https://github.com/jacobgil/pytorch-grad-cam))
