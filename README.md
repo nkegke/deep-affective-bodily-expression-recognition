@@ -1,6 +1,6 @@
 # Deep Affective Bodily Expression Recognition
 
-<img src="https://github.com/nkegke/files/blob/main/thesis/baseline.png" alt="face" style="width: 55vw;"/>
+<img src="https://github.com/nkegke/files/blob/main/thesis/baseline2.png" alt="tsn" style="width: 55vw;"/>
 <p align="center">
 TSN-Based Visual Emotion Recognition Model
 </p>
